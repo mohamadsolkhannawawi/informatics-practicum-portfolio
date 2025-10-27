@@ -1,0 +1,30 @@
+Register adalah memori n-bit yang terdiri dari sederetan flip-flop penyimpan data 1 bit. 
+Flip-flop adalah komponen rangkaian sekuensial yang berfungsi untuk menyimpan data. Data yang disimpan pada flip flop tersebut berbentuk data biner yang dapat berupa angka maupun huruf yang disusun dalam format kode seperti BCD atau ASCII. Karena data-data tersebut berbentuk data biner yang panjangnya lebih dari satu bit, maka untuk menyimpannya diperlukan gabungan dari beberapa flip-flop. 
+Gabungan dari beberapa flip flop tersebut dinamakan register.
+
+Berdasarkan prosesnya, register terbagi menjadi shift register dan paralel register.
+
+Berdasarkan metode input/outputnya, register dibedakan menjadi 4 yaitu :
+1. Serial Input Serial Output (SISO), Metode menggeser data secara serial input dan juga output dari register dengan satu bit pada satu waktu.
+2. Serial Input Parallel Output (SIPO), Metode yang datanya diinput secara serial sedikit demi sedikit dan data yang disimpan akan dikeluarkan dalam bentuk paralel.
+3. Parallel Input Serial Output (PISO), Metode yang datanya dimuat kedalam register secara bersamaan dan digeser keluar dari register secara satu persatu. 
+4. Parallel Input Parallel Output (PIPO). Metode yang di input secara bersamaan/paralel ke dalam register dan dikeluarkan secara bersamaan.
+
+
+1. Flip flop SR adalah flip flop yang memiliki dua input, yaitu S seabgai Set dan R sebagai Reset. Kharakteristik dan cara kerjanya yaitu : 
+Saat input S bernilai 1 saat clock tinggi, output Q akan di set ke 1. Ketika input R bernilai 1 saat clock tinggi, output Q akan di reset ke 0. Ketika input S dan R bernilai 1 secara bersamaan saat clock tinggi, output Q menjadi tidak terprediksi (status terlarang). SR flip flop dapat digunakan untuk memory storage sederhana.
+
+2. Flip flop JK adalah flip flop yang memiliki dua input, J sebagai Set dan K sebagai Reset.
+Kharakteristik dan cara kerjanya yaitu : 
+Saat input J bernilai 1 saat clock tinggi, output Q akan di set ke 1. Ketika input K bernilai 1 saat clock tinggi, output Q akan di reset ke 0. Ketika input J dan K bernilai 1 secara bersamaan, output Q akan bertukar posisi antara 1 dan 0 setiap clock tinggi. JK flip flop adalah pengembangan dari SR flip flop tanpa kelemahan status terlarang.
+
+3. D flip flop adalah flip flop yang memiliki hanya satu input, D (data/delay). Output Q memiliki nilai yang sama dengan inputT flip flop: memiliki hanya satu input, T (toggle). 
+Kharakteristik dan cara kerjanya yaitu : 
+Saat input T bernilai 1 saat clock tinggi, output Q akan bertukar posisi antara 1 dan 0 setiap clock tinggi. T flip flop adalah flip flop sederhana yang dapat digunakan untuk aplikasi countering dan toggling. D. D flip flop adalah flip flop sederhana yang dapat digunakan untuk sinkronisasi dan delay.
+
+4. T flip flop: memiliki hanya satu input, T (toggle). 
+Kharakteristik dan cara kerjanya yaitu : 
+Saat input T bernilai 1 saat clock tinggi, output Q akan bertukar posisi antara 1 dan 0 setiap clock tinggi. T flip flop adalah flip flop sederhana yang dapat digunakan untuk aplikasi countering dan toggling.
+
+Pada pencacah tak serempak (asyncronus counter), elemen-elemen penyusunnya yakni flip-flop bekerja secara tidak serempak ketika pencacah tersebut diberi input pulsa sedangkan Pada pencacah serempak (syncronus counter),elemen-elemen penyusunnya bekerja secara bersama-sama ketika 
+ada pulsa masuk ke inputnya.
