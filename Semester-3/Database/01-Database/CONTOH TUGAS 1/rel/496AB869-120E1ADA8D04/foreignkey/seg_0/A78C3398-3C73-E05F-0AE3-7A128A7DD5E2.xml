@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A78C3398-3C73-E05F-0AE3-7A128A7DD5E2" containerWithKeyObject="BE57CD25-5A4A-80D2-D609-6D692A8C7BED" localFKIndex="E00DFE16-6426-1D7F-0B15-7FE90C1B1721" name="MENGAMBIL_MATA_KULIAH_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>F15F4DBC-9983-5046-FD60-1C8A80AEAA34</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<referredTableLongName>MATA_KULIAH</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D6DC9C52-7266-E645-6BD3-8E1E1E31417B</referredTableID>
+<keyObject>61BF5E9E-C1D1-262A-F5B7-81C092E8FBD6</keyObject>
+<referredKeyID>61BF5E9E-C1D1-262A-F5B7-81C092E8FBD6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

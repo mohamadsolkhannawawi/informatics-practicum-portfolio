@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="055750BC-8677-6298-9895-C56DDB08DADB" name="MATA_KULIAH">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:32:08 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<engineerTo>
+<item key="496AB869-8C51-1BB5-A520-120E1ADA8D04" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="1C95AEA5-2B95-1415-A7AB-B27AFE67C574">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:32:34 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<engineerTo>
+<item key="496AB869-8C51-1BB5-A520-120E1ADA8D04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAMA_MATA_KULIAH" id="7E79DA98-4138-3582-56B0-960949836D69">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:33:05 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<engineerTo>
+<item key="496AB869-8C51-1BB5-A520-120E1ADA8D04" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5ECAA7AE-78DD-F00B-481B-54470E0969D3" name="MATA_KULIAH PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:32:48 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<engineerTo>
+<item key="496AB869-8C51-1BB5-A520-120E1ADA8D04" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1C95AEA5-2B95-1415-A7AB-B27AFE67C574</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

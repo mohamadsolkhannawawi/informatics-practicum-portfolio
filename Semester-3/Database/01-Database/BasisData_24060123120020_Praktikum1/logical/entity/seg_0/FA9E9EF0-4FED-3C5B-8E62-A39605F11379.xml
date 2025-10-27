@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA9E9EF0-4FED-3C5B-8E62-A39605F11379" name="Data_Kwitansi">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:00 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor_SPPD" id="376B7422-4AA7-69CC-2FE2-43F3B6DC52D1">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:07 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP" id="14DFD135-5935-129E-9303-8EA891CC38AD">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:23 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal" id="B8F27EF8-9AC7-FF84-3A1C-E05F7D8958BC">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:41 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Biaya_Total" id="B8A9ED3A-6DF6-962C-44F7-5981EB8E7437">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:50 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Keterangan" id="F31DE57E-669C-17EB-D06B-A90EAE1D4E79">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:26:11 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CEE4E078-719D-9829-54F4-A7641B6D7E76" name="Data_Kwitansi PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:25:22 UTC</createdTime>
+<ownerDesignName>BasisData_24060123120020_Praktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>376B7422-4AA7-69CC-2FE2-43F3B6DC52D1</attributeRef>
+<attributeRef>14DFD135-5935-129E-9303-8EA891CC38AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

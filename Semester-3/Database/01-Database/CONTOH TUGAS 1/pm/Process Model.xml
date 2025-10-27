@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="DC0CB92D-3844-E006-BD31-413CF2D6C9E8">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:27:25 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

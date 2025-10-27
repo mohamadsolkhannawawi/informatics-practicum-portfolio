@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="602C2CE7-5328-EBFE-E60A-5F3747E24D4E" name="MAHASISWA_S2">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>E367DF4A-A08E-2406-FB54-B8B4B97C510F</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIM" id="1E9E3760-4A0E-2B9D-FE5D-171B3098467F">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>9C6A3625-35A4-633F-1D09-0BFD29125A5C</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35144205-BE3B-3DB6-376D-D880DF1C2548" referredColumn="4A2A7CBA-AD78-72C3-9C3E-73F4596900C2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F69428A9-4011-6491-B3B8-DC6E1ABB13A6" name="MAHASISWA_S2_PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>1854ACE5-0073-847D-D9FD-636AE74F83DD</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E9E3760-4A0E-2B9D-FE5D-171B3098467F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E94F2E2B-5740-B6E5-81E7-4CA5E827590A" name="MAHASISWA_S2_MAHASISWA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>0A712BDF-818C-5E52-6B9F-06EEC6B5F206</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E9E3760-4A0E-2B9D-FE5D-171B3098467F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

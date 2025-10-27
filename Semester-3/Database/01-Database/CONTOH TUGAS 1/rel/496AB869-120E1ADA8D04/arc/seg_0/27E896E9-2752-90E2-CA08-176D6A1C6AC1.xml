@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="27E896E9-2752-90E2-CA08-176D6A1C6AC1" name="FKArc_1">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>4258ED24-9764-96D1-6014-0C88A77570E5</table>
+<fkeys>
+<fkeyID>8E1B3D23-F6DD-D491-06DE-41E35EAEBB9F</fkeyID>
+<fkeyID>35144205-BE3B-3DB6-376D-D880DF1C2548</fkeyID>
+</fkeys>
+</FKArc>

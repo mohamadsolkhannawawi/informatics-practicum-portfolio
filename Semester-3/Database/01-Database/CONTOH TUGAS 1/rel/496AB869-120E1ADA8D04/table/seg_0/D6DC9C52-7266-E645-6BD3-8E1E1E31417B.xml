@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6DC9C52-7266-E645-6BD3-8E1E1E31417B" name="MATA_KULIAH">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>055750BC-8677-6298-9895-C56DDB08DADB</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="35931B38-8CFD-6FD9-0E12-E12578F84471">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>1C95AEA5-2B95-1415-A7AB-B27AFE67C574</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAMA_MATA_KULIAH" id="F4FC8163-5301-1A91-00A4-85DF207EF89A">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>7E79DA98-4138-3582-56B0-960949836D69</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61BF5E9E-C1D1-262A-F5B7-81C092E8FBD6" name="MATA_KULIAH_PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>5ECAA7AE-78DD-F00B-481B-54470E0969D3</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35931B38-8CFD-6FD9-0E12-E12578F84471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,42 @@
+2024-09-10 09:27:25 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-12 13:41:15 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-16 08:05:23 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-18 05:51:33 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 11:38:25 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 11:44:10 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 11:46:40 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 12:04:46 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 12:05:26 SEVERE - Unable to load object from XML: C:\Users\HP\OneDrive - Universitas Diponegoro\Praktikum\Semester 3\Basis Data\Praktikum 4\BasisData_24060123120020_Praktikum1\BasisData_24060123120020_Praktikum1\mapping\ExtendedMap.xml
+java.io.FileNotFoundException: C:\Users\HP\OneDrive - Universitas Diponegoro\Praktikum\Semester 3\Basis Data\Praktikum 4\BasisData_24060123120020_Praktikum1\BasisData_24060123120020_Praktikum1\mapping\ExtendedMap.xml (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at oracle.dbtools.crest.model.metadata.XMLToObjectTransformer.transformToObject(XMLToObjectTransformer.java:134)
+	at oracle.dbtools.crest.model.metadata.XMLToObjectTransformer.transformToObject(XMLToObjectTransformer.java:129)
+	at oracle.dbtools.crest.model.metadata.XMLTransformationManager.transformFromXMLToObject(XMLTransformationManager.java:1872)
+	at oracle.dbtools.crest.model.metadata.XMLTransformationManager.transformFromXMLToObject(XMLTransformationManager.java:1820)
+	at oracle.dbtools.crest.model.design.Design.openDesign(Design.java:1672)
+	at oracle.dbtools.crest.swingui.ControllerApplication$1.run(ControllerApplication.java:2512)
+2024-09-19 12:09:54 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 12:10:20 SEVERE - Unable to load object from XML: C:\Users\HP\OneDrive - Universitas Diponegoro\Praktikum\Semester 3\Basis Data\Praktikum 4\BasisData_24060123120020_Praktikum1\BasisData_24060123120020_Praktikum1\mapping\ExtendedMap.xml
+java.io.FileNotFoundException: C:\Users\HP\OneDrive - Universitas Diponegoro\Praktikum\Semester 3\Basis Data\Praktikum 4\BasisData_24060123120020_Praktikum1\BasisData_24060123120020_Praktikum1\mapping\ExtendedMap.xml (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at oracle.dbtools.crest.model.metadata.XMLToObjectTransformer.transformToObject(XMLToObjectTransformer.java:134)
+	at oracle.dbtools.crest.model.metadata.XMLToObjectTransformer.transformToObject(XMLToObjectTransformer.java:129)
+	at oracle.dbtools.crest.model.metadata.XMLTransformationManager.transformFromXMLToObject(XMLTransformationManager.java:1872)
+	at oracle.dbtools.crest.model.metadata.XMLTransformationManager.transformFromXMLToObject(XMLTransformationManager.java:1820)
+	at oracle.dbtools.crest.model.design.Design.openDesign(Design.java:1672)
+	at oracle.dbtools.crest.swingui.ControllerApplication$1.run(ControllerApplication.java:2512)
+2024-09-19 12:11:36 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-19 12:14:46 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-26 12:23:03 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-26 12:42:39 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-26 12:44:28 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-09-26 12:44:55 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-10-02 14:20:45 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-10-04 13:02:48 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-10-22 07:58:24 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2024-12-04 13:02:14 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806
+2025-05-14 10:16:30 INFO - Oracle SQL Developer Data Modeler 23.1.0.087.0806

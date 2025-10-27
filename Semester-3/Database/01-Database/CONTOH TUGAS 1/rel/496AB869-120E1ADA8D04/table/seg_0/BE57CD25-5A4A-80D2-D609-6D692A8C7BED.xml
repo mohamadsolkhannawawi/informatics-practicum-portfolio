@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE57CD25-5A4A-80D2-D609-6D692A8C7BED" name="MENGAMBIL">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAHASISWA_NIM" id="38DAF21A-423B-7A17-92A3-6B4304783337">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4765772A-4709-8573-6A08-F94562FB6343" referredColumn="4A2A7CBA-AD78-72C3-9C3E-73F4596900C2"/>
+</associations>
+</Column>
+<Column name="MATA_KULIAH_ID" id="FF5F1357-5AAB-1DF1-0B4C-70F57FFAE058">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A78C3398-3C73-E05F-0AE3-7A128A7DD5E2" referredColumn="35931B38-8CFD-6FD9-0E12-E12578F84471"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D971B980-1DC2-E3B6-08BE-9932EEA62838" name="MENGAMBIL_PK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38DAF21A-423B-7A17-92A3-6B4304783337"/>
+<colUsage columnID="FF5F1357-5AAB-1DF1-0B4C-70F57FFAE058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F68C3591-533D-EEDD-B512-322073DF2BFD" name="MENGAMBIL_MAHASISWA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>F15F4DBC-9983-5046-FD60-1C8A80AEAA34</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38DAF21A-423B-7A17-92A3-6B4304783337"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E00DFE16-6426-1D7F-0B15-7FE90C1B1721" name="MENGAMBIL_MATA_KULIAH_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>F15F4DBC-9983-5046-FD60-1C8A80AEAA34</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF5F1357-5AAB-1DF1-0B4C-70F57FFAE058"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E1B3D23-F6DD-D491-06DE-41E35EAEBB9F" containerWithKeyObject="51684F3C-ECD9-D393-904E-940E2A60C646" localFKIndex="3EB6FAF4-DFDF-6AA5-3B90-A3A737741784" name="MAHASISWA_S1_MAHASISWA_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:37:37 UTC</createdTime>
+<generatorID>C62611F9-7DCF-1013-226D-2BEF636F5E53</generatorID>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<referredTableLongName>MAHASISWA</referredTableLongName>
+<arc>27E896E9-2752-90E2-CA08-176D6A1C6AC1</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4258ED24-9764-96D1-6014-0C88A77570E5</referredTableID>
+<keyObject>3D567744-459D-2A79-D7EB-5A02F482A2CB</keyObject>
+<referredKeyID>3D567744-459D-2A79-D7EB-5A02F482A2CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

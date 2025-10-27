@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AA47C81-8012-40B0-6053-EBC21711829A" name="Data_Pengurus">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:22:35 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIM" id="2DF04C28-BE67-EC98-9B08-E6DFFCD9CC1A">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:22:40 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Wilayah" id="97635E71-8250-C286-1A76-93AE99766733">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:22:58 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="C6CF01BD-1B8B-85F3-BE2F-4BBFCD353A5A">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:23:21 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17275209-6087-3EC5-BA19-667A97B025F0" name="Data_Pengurus PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:22:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum1</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DF04C28-BE67-EC98-9B08-E6DFFCD9CC1A</attributeRef>
+<attributeRef>97635E71-8250-C286-1A76-93AE99766733</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

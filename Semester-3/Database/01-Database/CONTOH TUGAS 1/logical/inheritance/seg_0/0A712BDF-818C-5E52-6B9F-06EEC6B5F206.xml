@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="0A712BDF-818C-5E52-6B9F-06EEC6B5F206">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:36:36 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<engineerTo>
+<item key="496AB869-8C51-1BB5-A520-120E1ADA8D04" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>1C1F7274-847F-1038-1304-87F9C384C8F7</sourceEntity>
+<targetEntity>E367DF4A-A08E-2406-FB54-B8B4B97C510F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

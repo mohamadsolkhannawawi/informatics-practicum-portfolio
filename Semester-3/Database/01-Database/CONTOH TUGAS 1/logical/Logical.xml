@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1F51A662-1302-A2A8-C35D-24737FA7593C" mainViewID="C5CB927E-85AF-4CE0-A7B7-0B090D3D7ED7">
+<createdBy>HP</createdBy>
+<createdTime>2024-09-10 02:27:25 UTC</createdTime>
+<ownerDesignName>CONTOH TUGAS 1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
