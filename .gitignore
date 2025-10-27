@@ -1,0 +1,23 @@
+# Executables and installers
+*.exe
+*.msi
+
+# Large library files
+*.dll
+*.so
+*.dylib
+
+# === Problematic Files ===
+# This will ignore the specific files that caused the error
+datamodeler-23.1.0.087.0806-x64.zip
+jdk-8u241-windows-x64.exe
+datamodeler-23.1.0.087.0806-no-jre.zip
+
+# This will ignore the large folders they unpack into
+/Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-x64/
+/Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/
+
+# OS & IDE junk
+.DS_Store
+.vscode/
+*.layout
