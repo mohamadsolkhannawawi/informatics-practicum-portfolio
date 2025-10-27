@@ -1,4 +1,4 @@
-def IsAtom(S):
+def IsAtom(S): 
     return isinstance(S, list) and len(S) == 1 and not isinstance(S[0], list)
 
 def IsList(S):
