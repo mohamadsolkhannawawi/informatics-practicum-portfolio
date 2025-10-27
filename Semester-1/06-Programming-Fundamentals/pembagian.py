@@ -1,4 +1,4 @@
-def pembagian(x,y):
+def pembagian(x,y): 
   if (x<y):
     return 0
   else:
