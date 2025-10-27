@@ -1,3 +1,9 @@
+#Nama File : Soal4.py
+#Pembuat   : Mohamad Solkhan Nawawi
+#Tanggal   : 13 November 2023
+#Deskripsi : fungsi yang mengecek apakah sebuah teks merupakan palindrom 
+#           (jika teks menghasilkan bunyi yang sama saat dibaca dari kiri atau kanan).
+
 def Konso(e,L):
   if L == [] :
     return [e]
@@ -37,8 +43,7 @@ def CekPalindrom(L) :
     else :
       return False
 
-
-  
+#APLIKASI
 print(CekPalindrom('kodok'))
 print(CekPalindrom('daspro'))
   

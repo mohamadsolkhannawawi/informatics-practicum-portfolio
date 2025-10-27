@@ -1,7 +1,7 @@
 #Nama File : point.py
 #Pembuat   : Abisatya Hastarangga Pradana-24060122120004
 #Tanggal   : 29 September 2023
-
+ 
 # DEFINISI DAN SPESIFIKASI TYPE
 # type Pecahan : <a : real, b: real>
 # <a,b> adalah sebuah Pecahan, dengan a adalah pembilang dan  b adalah penyebut

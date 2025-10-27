@@ -1,3 +1,12 @@
+#Nama File : Soal5.py
+#Pembuat   : Mohamad Solkhan Nawawi
+#Tanggal   : 13 November 2023
+#Deskripsi : sebuah list of point (menggunakan tipe bentukan point), 
+#            lalu buatlah sebuah fungsi yang menerima masukan sebuah point P 
+#            dan list of point LP, dan mengembalikan sebuah point di list of point LP
+#            yang memiliki jarak Euclidean terdekat dengan poin P.
+#            Jika ada lebih dari satu point yang terdekat, cukup kembalikan salah satunya saja. 
+
 def Point(a,b) :
     return [a,b]
 
@@ -21,7 +30,8 @@ def Tail(L):
 
 def IsOneElmt(L) :
     return (Tail(L) == [])
-  
+
+#REALISASI
 def NearestPoint(P, LP):
     if IsOneElmt(LP):
         return FirstElmt(LP)
@@ -31,5 +41,6 @@ def NearestPoint(P, LP):
         else:
             return FirstElmt(LP)
 
+#APLIKASI
 print(NearestPoint(Point(1,2),[Point(0,0),Point(3,4),Point(6,7),Point(1,1),Point(2,1)]))
 

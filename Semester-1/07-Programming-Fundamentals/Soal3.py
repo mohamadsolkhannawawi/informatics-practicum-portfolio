@@ -1,3 +1,8 @@
+#Nama File : Soal3.py
+#Pembuat   : Mohamad Solkhan Nawawi
+#Tanggal   : 13 November 2023
+#Deskripsi : sebuah fungsi yang menghitung banyaknya kemunculan sebuah karakter X dalam sebuah teks
+
 def FirstElmt(L) :
     return L[0]
 
@@ -12,6 +17,6 @@ def NBElmtX(X, L) :
     else :
         return NBElmtX(X, TailElmt(L))
     
-
+#APLIKASI
 print(NBElmtX('a', 'alamat'))
 print(NBElmtX('o', 'ilmu komputer dan informatika'))

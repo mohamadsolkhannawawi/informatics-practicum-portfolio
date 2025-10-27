@@ -1,10 +1,4 @@
-#Nama File : List.py
-#Pembuat   : Mohamad Solkhan Nawawi
-#Tanggal   : 12 November 2023
-#Deskripsi : Kumpulan fungsi yang terdapat pada List of List
-
-
-
+import List
 # TYPE LIST-OF-LIST
 # DEFINSI DAN SPESIFIKASI PREDIKAT KHUSUS UNTUK LIST OF LIST 
 # IsEmpty : list of list -> boolean
@@ -34,7 +28,11 @@ def KonsLo(L,S):
         return [S]
     else:
         return [S] + L
-    
+
+L = [1,2,3]
+S = [1,2,5,[1,2,4]]
+print(KonsLo(L,S))
+
 # KonsLi : List of list, List -> List of list
 # {KonsLi(S,L) diberikan sebuah List of list S dan sebuah list L, membentuk list baru 
 # dengan List yang diberikan sebagai elemen terakhir list of List: S i(.) L -> S']
@@ -104,7 +102,7 @@ def IsMemberS(A,S):
         if IsAtom(FirstList(S)):
             return A == FirstList(S)
         elif IsList(FirstList(S)):
-            return IsMember(A,FirstList(S)) or IsMemberS(A,TailList(S))
+            return List.IsMember(A,FirstList(S)) or IsMemberS(A,TailList(S))
 
 
 # IsMemberLS : List, List of list -> boolean
@@ -138,30 +136,35 @@ def Rember(a,S):
             return Rember(a,TailList(S))
         else:
             return KonsLo(List.FirstElmt(S), Rember(a,TailList(S)))
-        
-# Max : List of list tidak kosong -> integer
-# {Max(S) menghasilkan nilai elemen (atom) yang maksimum dari S}
-def Max(S):
-    if List.IsOneElmt(S):
-        if IsAtom(FirstList(S)):
-            return FirstList(S)
-        else:
-            return Max(FirstList(S))
-    else:
-        if IsAtom(FirstList(S)):
-            return Max2(FirstList(S),Max(TailList(S)))
-        else:
-            return Max2(FirstList(S, Max(TailList(S))))
 
-
-# Fungsi Perantara
-# Max2 : 2 integer -> integer
-# {Max2(a,b) menghasilkan nilai maksimum dari a dan b}
 def Max(a,b):
     if a >= b :
         return a
     else:
         return b
 
+# MaxList : List of list tidak kosong -> integer
+# {MaxList(S) menghasilkan nilai elemen (atom) yang maksimum dari S}
+def MaxList(S):
+    if List.IsOneElmt(S):
+        if IsAtom(FirstList(S)):
+            return FirstList(S)
+        else:
+            return MaxList(FirstList(S))
+    else:
+        if IsAtom(FirstList(S)):
+            return Max(FirstList(S),MaxList(TailList(S)))
+        else:
+            return Max(FirstList(S), MaxList(TailList(S)))
+
+
+# Fungsi Perantara
+# Max : 2 integer -> integer
+# {Max(a,b) menghasilkan nilai maksimum dari a dan b}
+def Max(a,b):
+    if a >= b :
+        return a
+    else:
+        return b
 
 
