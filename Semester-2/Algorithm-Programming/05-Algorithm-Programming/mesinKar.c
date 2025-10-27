@@ -1,0 +1,52 @@
+/*Nama file: mesinKar.c*/ 
+/*Deskripsi: body prototype mesin karakter*/ 
+ 
+#ifndef MESINKAR_C 
+#define MESINKAR_C 
+ 
+#include <assert.h> 
+#include <fcntl.h> 
+#include <stdio.h> 
+#include "mesinKar.h" 
+ 
+/* definisi states */ 
+char CC; 
+/* definisi Pita */ 
+char Pita_karakter[100]="pita.txt"; 
+static FILE *FILEKU; 
+static int retval; 
+ 
+ 
+ 
+/*Body Prototype*/ 
+void START() 
+/* I.S. sembarang */ 
+/* F.S. CC adalah karakter pertama pita */ 
+/*      Jika CC==MARK, EOP menyala(true) */ 
+/*      Jika CC!=MARK, EOP padam(false) */ 
+ 
+ 
+{ 
+   FILEKU=fopen(Pita_karakter,"r"); 
+   retval=fscanf(FILEKU,"%c",&CC); 
+} 
+ 
+void ADV() 
+/* I.S. CC!=MARK */ 
+/* F.S. CC adalah karakter berikutnya CC pada I.S */ 
+/*      Jika CC==MARK, EOP menyala(true) */ 
+{ 
+   retval=fscanf(FILEKU,"%c",&CC); 
+   if(CC==MARK) 
+   { 
+      fclose(FILEKU); 
+   } 
+} 
+ 
+int EOP() 
+/* mengirimkan true jika CC==MARK */ 
+{ 
+   return(CC==MARK); 
+} 
+ 
+#endif
