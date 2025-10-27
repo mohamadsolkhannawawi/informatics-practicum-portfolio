@@ -1,0 +1,6 @@
+{
+    "type": "java",
+    "request": "launch",
+    "mainClass": "Akademik.MMahasiswa",
+    "projectName": "ProyekJava"
+}
