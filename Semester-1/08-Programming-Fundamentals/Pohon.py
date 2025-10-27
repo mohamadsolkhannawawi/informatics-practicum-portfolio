@@ -2,7 +2,7 @@
 #Type PohonBiner : <A : elemen, L : PohonBiner, R : PohonBiner >
 #<A,L,R> adalah type bentukan pohon biner dimana A adalah akar, l adalah daun kiri, R adalah daun kanan
 class PohonBiner :
-    def __init__(self,A,L,R):
+    def __init__(self,A,L,R): 
         self.A = A
         self.L = L
         self.R = R
