@@ -1,4 +1,4 @@
-def Konso(e,L):
+def Konso(e,L): 
   if L == [] :
     return [e]
   else :
