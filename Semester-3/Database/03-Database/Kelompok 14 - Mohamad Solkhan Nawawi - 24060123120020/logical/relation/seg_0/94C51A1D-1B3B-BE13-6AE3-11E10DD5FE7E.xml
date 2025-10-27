@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Laporan Masalah Mahasiswa FK" directorySegmentName="seg_0" id="94C51A1D-1B3B-BE13-6AE3-11E10DD5FE7E">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:54:58 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>6D7BCDE5-E1D0-3E34-2B28-3C88E3F561AE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE43E4E7-7FD4-D993-27D1-22F6B26208E4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A8EABC34-C4B8-C99F-8E66-1A8EB79A5AE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

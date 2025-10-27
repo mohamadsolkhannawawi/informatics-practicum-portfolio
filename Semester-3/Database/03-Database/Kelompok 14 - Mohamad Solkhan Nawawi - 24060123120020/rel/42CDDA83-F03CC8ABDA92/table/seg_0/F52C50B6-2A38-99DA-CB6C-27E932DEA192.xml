@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F52C50B6-2A38-99DA-CB6C-27E932DEA192" name="Data_Pengabdian_Masyarakat">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>6AA7EBAB-F07A-4F6C-84F4-3F90BD8B4134</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Pengabdian" id="52B376CE-CD1E-76C8-262D-70848AC38A92">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>9FC1FAB9-C836-5B51-FFE6-2762FB1E9F6D</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul_Pengabdian" id="A312E0DA-E088-2E38-03F3-6D092CC54B51">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>888D9241-24A8-0A0D-CB22-7DB702D7F875</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIP" id="578B9EEB-CB2D-9B7A-FE6B-C0B84F43B240">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>ED77406C-4655-1E00-9DCB-3ED08D3D8E40</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_Wilayah" id="AE202CE9-F62D-8DB2-A0C4-B7179782006D">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>92449821-33D7-0017-C4A9-9059F1A2D255</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIM_1" id="70A7EC76-4679-E7AD-E135-BB8F17E74A5F">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>4B0DCF45-D6EC-EE26-8205-A4976D2B847C</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosen_Lapangan_NIP" id="3330C395-A4E0-EFA5-1A61-9075A2B2859F">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>CACB8A53-4ADB-3932-9F9B-8A3F9827DCA3</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27634319-9724-52B3-03FF-DC85D5D2B0AD" referredColumn="E82FB781-B5CE-655D-1C5D-EA4CB0FBE508"/>
+</associations>
+</Column>
+<Column name="Data_Wilayah_ID_Wilayah" id="84421C07-853C-E512-46B7-CA16486D5270">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>87FCF316-8BD1-9DB5-D2FD-FFE8E0CA87E0</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9195D9B8-FDC5-F118-49B4-BF8F5D345BEC" referredColumn="0602D85B-E2BD-2982-EA96-01F60792CB3C"/>
+</associations>
+</Column>
+<Column name="NIM_2" id="9DE6DCBA-D657-EE90-B835-CF2FC22E98DD">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>4F062B76-69D0-8376-7D56-84E6B8F196B6</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD946E6A-7637-827B-96ED-2691C0EA0664" name="Data_Pengabdian_Masyarakat_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>C7FAC041-0674-32A8-8C58-F304A0651F06</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52B376CE-CD1E-76C8-262D-70848AC38A92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FDFDB9A-6A8C-6829-EE94-A7BADACC2076" name="Data_Pengabdian_Masyarakat_Data_Wilayah_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>25D5DF1F-6FC6-E9FA-E6E1-681F733B38C1</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84421C07-853C-E512-46B7-CA16486D5270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E066ACD5-716E-94EF-0159-9B9E0B348E84" name="Data_Pengabdian_Masyarakat_Dosen_Lapangan_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>BC60E010-2234-DBC0-70C9-11E040E5F6BC</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3330C395-A4E0-EFA5-1A61-9075A2B2859F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

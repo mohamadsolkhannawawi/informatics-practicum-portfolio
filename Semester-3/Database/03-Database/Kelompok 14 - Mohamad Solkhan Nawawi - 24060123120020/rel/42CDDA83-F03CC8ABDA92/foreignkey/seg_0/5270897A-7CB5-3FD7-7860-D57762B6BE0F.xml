@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5270897A-7CB5-3FD7-7860-D57762B6BE0F" containerWithKeyObject="0FB2F150-3093-DB82-6A05-CCF827FFD413" localFKIndex="4DF89CC8-046C-F92B-ED56-C286DB336BB4" name="Data_Proker_Data_Wilayah_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>B8E5FF48-F7DA-7FA7-1BCA-D12C09604B08</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Data_Wilayah</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CA4F8F65-5770-49A8-85F6-370182818496</referredTableID>
+<keyObject>BA7A9B58-5F21-2812-0BBE-61AF42D6B583</keyObject>
+<referredKeyID>BA7A9B58-5F21-2812-0BBE-61AF42D6B583</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Wilayah</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

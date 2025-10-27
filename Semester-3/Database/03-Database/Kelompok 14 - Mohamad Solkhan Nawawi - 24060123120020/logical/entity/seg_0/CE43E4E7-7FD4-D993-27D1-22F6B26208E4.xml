@@ -1,0 +1,226 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CE43E4E7-7FD4-D993-27D1-22F6B26208E4" name="Mahasiswa">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:06:03 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NIM" id="0555529F-8730-04C8-CA33-739C6C9F7D0F">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:06:21 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama" id="B2AEC7F7-7936-1E8D-D1CF-2E1297F3A94A">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:06:50 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor HP" id="6668B260-1447-68C4-4CC3-7837A8E04605">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:11:42 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="0BB79BC5-14F2-F883-93DA-093ED553DFCF">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:13:52 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prodi" id="ADCF3492-9206-60FD-98BB-CB2ECC28A4A8">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:14:05 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fakultas" id="D5EFB046-ECE2-8E1A-15CE-2FBF6AE625BE">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:14:16 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kontak Darurat" id="84DC2534-E339-8062-A547-B4261C1061EF">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:14:28 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Riwayat Kesehatan" id="0E2CF9AD-02A0-C558-4A01-3686215C85AB">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:15:04 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dosen Lapangan NIP" id="6CFD31AC-43C6-667C-7E0B-928CB13B8C3A">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:51:20 UTC</createdTime>
+<generatorID>FB48F9CD-5BE1-0C12-C0F7-6AA91B44F1E4</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>853B315A-DE4A-51E7-E9BC-34DA2FFF3391</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pengabdian" id="FBC6D4EE-A55B-A69E-4AE4-5381964AEF2E">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:52:07 UTC</createdTime>
+<generatorID>F2455661-1220-18EF-518A-8BF5FC1A1BD2</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>9FC1FAB9-C836-5B51-FFE6-2762FB1E9F6D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP" id="A5909E2B-E925-5126-4C18-71C4FD2627A4">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:39:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM1" id="30216D9B-B553-CF7C-358C-BE4373CC9A15">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:49:36 UTC</createdTime>
+<generatorID>1B5B8DBB-A181-F4D2-9BDD-FFB5574710D9</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>331436CD-FB5F-69E0-F870-BA44EAB556E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM2" id="9A116B20-1AA0-B4CD-A7EB-F2D0E24399D4">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:22 UTC</createdTime>
+<generatorID>6FE22DF3-071D-C846-7C3C-27C56D33F324</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>2DF04C28-BE67-EC98-9B08-E6DFFCD9CC1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nomor_Program" id="3918A7F4-FF76-387E-B0B8-2118A4B0BEB4">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:22 UTC</createdTime>
+<generatorID>6FE22DF3-071D-C846-7C3C-27C56D33F324</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>97635E71-8250-C286-1A76-93AE99766733</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D7BCDE5-E1D0-3E34-2B28-3C88E3F561AE" name="Mahasiswa PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:06:42 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0555529F-8730-04C8-CA33-739C6C9F7D0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

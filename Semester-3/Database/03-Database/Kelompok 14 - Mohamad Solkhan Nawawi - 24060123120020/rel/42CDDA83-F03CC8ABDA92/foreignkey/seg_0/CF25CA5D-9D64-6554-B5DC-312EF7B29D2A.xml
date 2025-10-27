@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF25CA5D-9D64-6554-B5DC-312EF7B29D2A" containerWithKeyObject="9E785621-1286-F484-8AAC-D3EF04DCF28D" localFKIndex="D9A71CF5-1E66-94A9-69B4-831AE5D08A15" name="Nilai_Program_Kerja_Data_Proker_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<generatorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Data_Proker</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FB2F150-3093-DB82-6A05-CCF827FFD413</referredTableID>
+<keyObject>9C407BC5-0440-36FC-5D11-C4249F55F2C3</keyObject>
+<referredKeyID>9C407BC5-0440-36FC-5D11-C4249F55F2C3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Data_Proker_ID</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36C15663-47B4-1D70-38CF-4155FEA07361" name="Dosen_Lapangan">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>033CAC98-7717-9652-08E3-3BBC93A3A7A3</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIP" id="E82FB781-B5CE-655D-1C5D-EA4CB0FBE508">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>853B315A-DE4A-51E7-E9BC-34DA2FFF3391</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Dosen" id="EACCF39C-023A-6DFD-3ACC-A6BDB9BA3FB1">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>6B4CDA19-1BA9-9B8D-53B9-7B1F6670702F</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="A52F4486-E480-E861-A686-2F2337662B69">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>075BF54D-D9CE-0C6C-74E1-4BF27DDBBD55</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="EA8CE252-0027-CA6F-9D17-83492BCB874D">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>46FC625C-0E9A-C5A1-B2CE-8032C759B2CD</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_HP" id="A5E1BD29-FB58-9D29-7C1F-B7120D0D08A1">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>C4543172-5934-88F7-76C3-3EB3388A09E2</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47D8A7CA-F3F4-6F4F-3BA7-5895F4A58C97" name="Dosen_Lapangan_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>718F29DE-46CE-05DE-168D-822578D7F35B</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E82FB781-B5CE-655D-1C5D-EA4CB0FBE508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

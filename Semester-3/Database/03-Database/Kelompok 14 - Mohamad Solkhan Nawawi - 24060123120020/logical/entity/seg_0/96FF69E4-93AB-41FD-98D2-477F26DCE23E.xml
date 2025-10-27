@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96FF69E4-93AB-41FD-98D2-477F26DCE23E" name="Nilai Program Kerja">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:34:59 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Nilai_Proker</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor_Program" id="2925BBAE-E248-F300-E96F-1D3BC491761F">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:36:38 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nilai_Proposal" id="A4B1114C-8061-B259-FD21-30346159C920">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:38:32 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nilai_Kegiatan" id="0F15680F-D2DF-4B56-62BA-0F2D1F197AA4">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:38:50 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nilai_Publikasi" id="82680C87-7F94-517D-D192-E462C4806906">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:39:08 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nilai_Laporan_Akhir" id="281574A9-7038-3CB4-1592-56574D36DB60">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 05:13:09 UTC</createdTime>
+<generatorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>9C693E5B-C74B-A5F0-B601-94E1D343E5BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBEEC5BF-C018-CF47-6D85-B3E363C4A295" name="Nilai Program Kerja PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:45:41 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2925BBAE-E248-F300-E96F-1D3BC491761F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

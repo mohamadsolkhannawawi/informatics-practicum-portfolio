@@ -1,0 +1,296 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FB2F150-3093-DB82-6A05-CCF827FFD413" name="Data_Proker">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>3B1E9588-D7BE-4E94-47F8-BB5DCF64F060</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Data_Proker_ID" id="E65EED6D-1CB8-9AE0-B201-5E2B1612173D">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Nomor_Program" id="2DD8B4D0-C908-2EC1-6E39-D454891C7831">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>9C693E5B-C74B-A5F0-B601-94E1D343E5BF</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis" id="55EFD2E5-24D4-4BAA-74DC-C4B896F3880B">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>A5421BF3-FFF1-CFAA-368F-637B13EDE011</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Judul_Program" id="82DC6814-EA63-23EB-5CB8-1FB3A1AF29B4">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>0C02D1CB-BFDA-C8DE-DCE9-B9E7245D749A</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sasaran" id="23B175B0-CCF3-708D-5100-99C385605375">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>80E409C2-A103-BECB-20D5-54EDA2B73FEF</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Luaran" id="308AE146-B905-BD74-A0ED-51DB78B736DF">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>CD89A311-DAE1-7CE6-2680-A28D8EF7B43D</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tindak_Lanjut" id="013FE8ED-C53C-73DA-AC4A-469D4A436306">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>BFB05849-6614-891D-3FAB-2EDD2C6A1047</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Progres" id="C31E720E-7C06-58D4-6250-6A146CD96DA4">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>6731B13A-16DC-ED13-87FA-A9DD34D9ABC5</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Wilayah_ID_Wilayah" id="B9BAF296-4222-C859-373A-4BABCE315315">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>2070FE1B-7C6D-28F8-550E-5D7A06ED7B79</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5270897A-7CB5-3FD7-7860-D57762B6BE0F" referredColumn="0602D85B-E2BD-2982-EA96-01F60792CB3C"/>
+</associations>
+</Column>
+<Column name="ID_Wilayah" id="B32AED4F-8574-53C9-8EF9-B02A930DD353">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>532C9C2D-CF4B-094F-93CD-5788433C8381</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mhs_Proker_NIM" id="4BC45C31-1C5E-6A63-0B82-F1E3F95757F3">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>5AA3D0C5-68D7-C9FE-28B3-876B42C0DD32</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E69CDFBF-9F22-C751-44BE-FDAB9F2D9ED7" referredColumn="D3B8B21C-7E37-A5BC-F777-CF830EC8646C"/>
+</associations>
+</Column>
+<Column name="Mhs_Proker_Nomor_Program" id="A212C58C-025E-4D4D-ADCA-BFDF661019CE">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>F8C267C9-1588-EFA0-E283-F366802F44B9</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E69CDFBF-9F22-C751-44BE-FDAB9F2D9ED7" referredColumn="9671EF2D-2426-DDB5-812E-3F580271C9C6"/>
+</associations>
+</Column>
+<Column name="Nilai_Program_Kerja_Nilai_Proker_ID" id="CAFBABC0-5142-7D2C-41E0-7A2E88BC1E89">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Program_Kerja_Nilai_Proker_ID2" id="CCD5F19F-0041-49C5-23A1-F01B99EBE068">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:06:49 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Program_Kerja_Nilai_Proker_ID3" id="1A7AC08A-4E54-8F1C-8D22-88D434CC3B76">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="867C76FA-E292-2E50-0C9D-544F2F65BF32" referredColumn="06523214-6A6C-D32B-E07D-6CD0D4B6D991"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C407BC5-0440-36FC-5D11-C4249F55F2C3" name="Data_Proker_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E65EED6D-1CB8-9AE0-B201-5E2B1612173D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C470DF-21A6-5CAB-5E15-C63361A38384" name="Data_Proker_Nomor_Program_UN">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>AEF7B308-1A88-8F74-9F07-7541C5CF594D</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DD8B4D0-C908-2EC1-6E39-D454891C7831"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EC52A83-A424-2806-8E10-ACEF690D28C8" name="Data_Proker__IDX">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CAFBABC0-5142-7D2C-41E0-7A2E88BC1E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E91896EA-F68E-F173-8215-4E827675D135" name="Data_Proker__IDX">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:06:49 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CCD5F19F-0041-49C5-23A1-F01B99EBE068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E50C4DC8-4E7C-B8E8-4526-C4811308D875" name="Data_Proker__IDXv1">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="1A7AC08A-4E54-8F1C-8D22-88D434CC3B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DF89CC8-046C-F92B-ED56-C286DB336BB4" name="Data_Proker_Data_Wilayah_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>B8E5FF48-F7DA-7FA7-1BCA-D12C09604B08</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BAF296-4222-C859-373A-4BABCE315315"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C07F1CC-6E4B-4F04-B3C7-15B0DD4074FB" name="Data_Proker_Mhs_Proker_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>91A6E52C-EAED-F08F-A8FA-64E2C82B4944</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BC45C31-1C5E-6A63-0B82-F1E3F95757F3"/>
+<colUsage columnID="A212C58C-025E-4D4D-ADCA-BFDF661019CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D06596A-1CF8-E38E-CD7E-EDB57A5FCB96" name="Data_Proker_Nilai_Program_Kerja_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:54 UTC</createdTime>
+<generatorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A7AC08A-4E54-8F1C-8D22-88D434CC3B76"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Data Proker Nilai Program Kerja FK" directorySegmentName="seg_0" id="846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:50:37 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>96FF69E4-93AB-41FD-98D2-477F26DCE23E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3B1E9588-D7BE-4E94-47F8-BB5DCF64F060</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

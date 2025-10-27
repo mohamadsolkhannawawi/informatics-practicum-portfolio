@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5454CD8-78AB-3ED6-8D3F-5C511D2D081F" name="Mhs_Proker">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>2AA47C81-8012-40B0-6053-EBC21711829A</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NIM" id="D3B8B21C-7E37-A5BC-F777-CF830EC8646C">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>2DF04C28-BE67-EC98-9B08-E6DFFCD9CC1A</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nomor_Program" id="9671EF2D-2426-DDB5-812E-3F580271C9C6">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>97635E71-8250-C286-1A76-93AE99766733</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="E7AFC756-A9E6-D450-EBB8-DE10A14910FC">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>C6CF01BD-1B8B-85F3-BE2F-4BBFCD353A5A</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C296A37F-E54B-7586-E884-5F5CAA29D40F" name="Mhs_Proker_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>17275209-6087-3EC5-BA19-667A97B025F0</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3B8B21C-7E37-A5BC-F777-CF830EC8646C"/>
+<colUsage columnID="9671EF2D-2426-DDB5-812E-3F580271C9C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

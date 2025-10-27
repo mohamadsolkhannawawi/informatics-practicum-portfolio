@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62113A6C-1DBC-AC3D-A736-05C6D34453C3" containerWithKeyObject="3B4BC6B4-997B-3C4F-FAB2-606E7A5B989D" localFKIndex="A9B9410B-663C-3C27-5518-6D322149AFC2" name="Mahasiswa_Data_Pengabdian_Masyarakat_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>F2455661-1220-18EF-518A-8BF5FC1A1BD2</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Data_Pengabdian_Masyarakat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F52C50B6-2A38-99DA-CB6C-27E932DEA192</referredTableID>
+<keyObject>DD946E6A-7637-827B-96ED-2691C0EA0664</keyObject>
+<referredKeyID>DD946E6A-7637-827B-96ED-2691C0EA0664</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Pengabdian</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

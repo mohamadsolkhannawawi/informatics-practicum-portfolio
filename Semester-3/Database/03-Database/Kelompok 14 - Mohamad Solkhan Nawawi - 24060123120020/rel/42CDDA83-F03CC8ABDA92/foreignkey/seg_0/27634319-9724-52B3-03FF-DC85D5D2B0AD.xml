@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="27634319-9724-52B3-03FF-DC85D5D2B0AD" containerWithKeyObject="F52C50B6-2A38-99DA-CB6C-27E932DEA192" localFKIndex="E066ACD5-716E-94EF-0159-9B9E0B348E84" name="Data_Pengabdian_Masyarakat_Dosen_Lapangan_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>BC60E010-2234-DBC0-70C9-11E040E5F6BC</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Dosen_Lapangan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36C15663-47B4-1D70-38CF-4155FEA07361</referredTableID>
+<keyObject>47D8A7CA-F3F4-6F4F-3BA7-5895F4A58C97</keyObject>
+<referredKeyID>47D8A7CA-F3F4-6F4F-3BA7-5895F4A58C97</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

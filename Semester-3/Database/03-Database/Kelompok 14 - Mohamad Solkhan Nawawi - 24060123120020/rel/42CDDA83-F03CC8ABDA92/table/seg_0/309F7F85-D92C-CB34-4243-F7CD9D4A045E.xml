@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="309F7F85-D92C-CB34-4243-F7CD9D4A045E" name="Laporan_Masalah_Kesehatan">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>A8EABC34-C4B8-C99F-8E66-1A8EB79A5AE2</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Laporan" id="3BF60781-7509-034A-DD2B-AD988E7BC07B">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>734F5ED1-96BF-F6A8-FBE5-3E8AB090BA28</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Masalah_Kesehatan" id="0C8E306D-F182-AC50-837A-9787650BC8F3">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>BB99AB7E-E413-6CD6-DC16-5CD445BA79A0</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal" id="06693732-0D99-5EC4-6D49-7EBFA3BC1F4A">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>D9B6E1BC-7AFE-29E7-1238-40D9330BAD7F</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Persetujuan" id="B4BFFB5E-7416-97CD-3D96-81F43A63CDEF">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>5E9F6A85-2AF5-1AF9-96E3-F2FF53EB4EF7</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mahasiswa_NIM" id="14C38F21-1891-6ED8-F202-F20FC8A40E68">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>C134DDEE-B6AD-D867-7A31-06466527F967</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11C2460A-D6F6-6281-63EB-CB48DAEA0C71" referredColumn="0802314D-ABA9-2603-5BD5-56CB89D39777"/>
+</associations>
+</Column>
+<Column name="Dosen_Lapangan_NIP" id="D88AB3B4-F003-48C7-853E-2A147F9BF75B">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>408EE9D1-B91F-A8FF-1944-FF42B352D752</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C2B518B-48DE-8E65-DA43-8BE1F80E2D9A" referredColumn="E82FB781-B5CE-655D-1C5D-EA4CB0FBE508"/>
+</associations>
+</Column>
+<Column name="NIM" id="BD3245BF-285D-89A2-AFD2-838E56904251">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>D2BEBA67-948F-1E75-5285-4CC8C39971CD</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIP" id="F969313C-CB83-B67E-F009-95F159C403B2">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>C45BD51D-0DA7-889F-4D6A-E55DE29A27B5</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="686F330A-3FFF-43FA-B9AE-C4A571273FAA" name="Laporan_Masalah_Kesehatan_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>8F2B5185-B601-8F0C-E273-6382E8BB78E9</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BF60781-7509-034A-DD2B-AD988E7BC07B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FDF317B-EBAB-3DAA-C4F7-FF843F061601" name="Laporan_Masalah_Kesehatan_Dosen_Lapangan_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>99D794F8-EC6A-71EA-6F27-BC374EAFFF09</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D88AB3B4-F003-48C7-853E-2A147F9BF75B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57F662D7-722E-3BAC-0E7F-5809422B3C31" name="Laporan_Masalah_Kesehatan_Mahasiswa_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>94C51A1D-1B3B-BE13-6AE3-11E10DD5FE7E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14C38F21-1891-6ED8-F202-F20FC8A40E68"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E69CDFBF-9F22-C751-44BE-FDAB9F2D9ED7" containerWithKeyObject="0FB2F150-3093-DB82-6A05-CCF827FFD413" localFKIndex="5C07F1CC-6E4B-4F04-B3C7-15B0DD4074FB" name="Data_Proker_Mhs_Proker_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>91A6E52C-EAED-F08F-A8FA-64E2C82B4944</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Mhs_Proker</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5454CD8-78AB-3ED6-8D3F-5C511D2D081F</referredTableID>
+<keyObject>C296A37F-E54B-7586-E884-5F5CAA29D40F</keyObject>
+<referredKeyID>C296A37F-E54B-7586-E884-5F5CAA29D40F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIM,Nomor_Program</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

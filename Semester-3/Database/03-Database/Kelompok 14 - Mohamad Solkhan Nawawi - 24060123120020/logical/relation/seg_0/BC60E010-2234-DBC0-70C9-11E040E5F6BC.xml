@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Data Pengabdian Dosen Lapangan FK" directorySegmentName="seg_0" id="BC60E010-2234-DBC0-70C9-11E040E5F6BC">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:53:00 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<targetTransferable>false</targetTransferable>
+<sourcePk>718F29DE-46CE-05DE-168D-822578D7F35B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>033CAC98-7717-9652-08E3-3BBC93A3A7A3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6AA7EBAB-F07A-4F6C-84F4-3F90BD8B4134</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

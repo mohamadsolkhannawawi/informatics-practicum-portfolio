@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6AA7EBAB-F07A-4F6C-84F4-3F90BD8B4134" name="Data Pengabdian Masyarakat">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:23:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pengabdian" id="9FC1FAB9-C836-5B51-FFE6-2762FB1E9F6D">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:23:47 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul_Pengabdian" id="888D9241-24A8-0A0D-CB22-7DB702D7F875">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:23:58 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIP" id="ED77406C-4655-1E00-9DCB-3ED08D3D8E40">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:24:12 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Wilayah" id="92449821-33D7-0017-C4A9-9059F1A2D255">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:24:28 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM_1" id="4B0DCF45-D6EC-EE26-8205-A4976D2B847C">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:24:42 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dosen Lapangan NIP" id="CACB8A53-4ADB-3932-9F9B-8A3F9827DCA3">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:53:00 UTC</createdTime>
+<generatorID>BC60E010-2234-DBC0-70C9-11E040E5F6BC</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>853B315A-DE4A-51E7-E9BC-34DA2FFF3391</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Wilayah ID Wilayah" id="87FCF316-8BD1-9DB5-D2FD-FFE8E0CA87E0">
+<createdBy>Sahal Annabil</createdBy>
+<createdTime>2024-09-26 04:53:42 UTC</createdTime>
+<generatorID>25D5DF1F-6FC6-E9FA-E6E1-681F733B38C1</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<referedAttribute>D49F619D-BD99-F116-F5B8-3C4DE07004A6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIM_2" id="4F062B76-69D0-8376-7D56-84E6B8F196B6">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:51:52 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C7FAC041-0674-32A8-8C58-F304A0651F06" name="Data_Pengabdian_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-09-19 04:23:56 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="42CDDA83-6F81-19D3-D7E8-F03CC8ABDA92" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC1FAB9-C836-5B51-FFE6-2762FB1E9F6D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

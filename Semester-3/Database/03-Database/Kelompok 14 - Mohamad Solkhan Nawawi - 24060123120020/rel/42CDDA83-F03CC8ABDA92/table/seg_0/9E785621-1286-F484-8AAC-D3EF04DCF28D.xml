@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E785621-1286-F484-8AAC-D3EF04DCF28D" name="Nilai_Program_Kerja">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>96FF69E4-93AB-41FD-98D2-477F26DCE23E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<abbreviation>Nilai_Proker</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nilai_Proker_ID" id="06523214-6A6C-D32B-E07D-6CD0D4B6D991">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Nomor_Program" id="40D3C8CC-14AF-A619-19C3-DE08D704481F">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>2925BBAE-E248-F300-E96F-1D3BC491761F</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Proposal" id="C81DE7D6-FFC1-0901-D7F0-D54AD0A08C9B">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>A4B1114C-8061-B259-FD21-30346159C920</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Kegiatan" id="0977EBD1-CEC1-C687-ACF8-1ADC38F48F7F">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>0F15680F-D2DF-4B56-62BA-0F2D1F197AA4</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Publikasi" id="F10DFF35-AF4A-A5EE-128C-37E391B54CE7">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>82680C87-7F94-517D-D192-E462C4806906</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nilai_Laporan_Akhir" id="F45FF393-0022-E835-4032-3FC9822D333E">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>281574A9-7038-3CB4-1592-56574D36DB60</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Proker_Data_Proker_ID" id="8262F01B-CE90-11C2-561E-CDCDA8BEE7BD">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Proker_Data_Proker_ID2" id="49C86881-0C44-448A-C915-C4C9EEB8C4CF">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:06:49 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Proker_Data_Proker_ID3" id="25F95AD3-331A-1156-76E5-F3963DE15A14">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF25CA5D-9D64-6554-B5DC-312EF7B29D2A" referredColumn="E65EED6D-1CB8-9AE0-B201-5E2B1612173D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B6B44535-73DF-97D3-188C-1DC1A41FFD29" name="Nilai_Proker_PK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="06523214-6A6C-D32B-E07D-6CD0D4B6D991"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C92A4EB-D81E-10A5-7F62-681E8027E348" name="Nilai_Program_Kerja_Nomor_Program_UN">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>BBEEC5BF-C018-CF47-6D85-B3E363C4A295</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40D3C8CC-14AF-A619-19C3-DE08D704481F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A775163E-D679-0AEB-B55A-FB70C56334E7" name="Nilai_Program_Kerja__IDX">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8262F01B-CE90-11C2-561E-CDCDA8BEE7BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7A8EF94-A722-742A-51A5-1A961EC78638" name="Nilai_Program_Kerja__IDX">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:06:49 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="49C86881-0C44-448A-C915-C4C9EEB8C4CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="09FEA792-F498-6D14-98A0-EA13EC69A0F7" name="Nilai_Program_Kerja__IDXv1">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="25F95AD3-331A-1156-76E5-F3963DE15A14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9A71CF5-1E66-94A9-69B4-831AE5D08A15" name="Nilai_Program_Kerja_Data_Proker_FK">
+<createdBy>HP</createdBy>
+<createdTime>2024-10-04 06:08:55 UTC</createdTime>
+<generatorID>846B2588-1C5A-8DB4-DD34-AF17C1E9BB9E</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25F95AD3-331A-1156-76E5-F3963DE15A14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

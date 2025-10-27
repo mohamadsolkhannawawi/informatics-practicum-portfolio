@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9C2C2E70-AF5B-331C-A594-37EF0DE2A179" containerWithKeyObject="3B4BC6B4-997B-3C4F-FAB2-606E7A5B989D" localFKIndex="6CD3BCCE-8CE5-C204-7CC6-833D8D431902" name="Mahasiswa_Dosen_Lapangan_FK">
+<createdBy>irvin</createdBy>
+<createdTime>2024-10-04 05:57:39 UTC</createdTime>
+<generatorID>FB48F9CD-5BE1-0C12-C0F7-6AA91B44F1E4</generatorID>
+<ownerDesignName>basisDataPraktikum3</ownerDesignName>
+<referredTableLongName>Dosen_Lapangan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36C15663-47B4-1D70-38CF-4155FEA07361</referredTableID>
+<keyObject>47D8A7CA-F3F4-6F4F-3BA7-5895F4A58C97</keyObject>
+<referredKeyID>47D8A7CA-F3F4-6F4F-3BA7-5895F4A58C97</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIP</refColNames>
+<transferable>false</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
