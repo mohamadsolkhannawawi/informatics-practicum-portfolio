@@ -5,7 +5,7 @@
 
 from math import sqrt
 import point
-
+ 
 # DEFINISI TYPE
 # type segitiga : <a:point, b:point, c:point>
 # {<a, b, c> adalah sebuah segitiga, dengan a, b, dan c adalah titik sudut segitiga}

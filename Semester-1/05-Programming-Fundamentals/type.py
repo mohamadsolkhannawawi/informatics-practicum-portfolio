@@ -8,7 +8,7 @@ def ordinat(P):
   return P[1]
 
 
-def gradien(P1,P2):
+def gradien(P1,P2): 
   return (ordinat(P2)-ordinat(P1)/absis(P2)-absis(P1))
 
 def jarakP1(S):

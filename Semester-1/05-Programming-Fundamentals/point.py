@@ -3,14 +3,14 @@
 # Pembuat   : Qun Alfadrian Setyowahyu Putro
 # Tanggal   : 19 September 2023
 
-from math import sqrt
-
+from math import sqrt 
+ 
 # DEFINISI DAN SPESIFIKASI FUNGSI FX2
 # fx2: integer --> integer
 # {fx2(x) menghitung hasil pangkat 2 dari x}
 # Realisasi dalam Python
 def fx2(x):
-    return x*x
+    return x*x 
 
 # DEFINISI TYPE
 # type point : <x:real, y:real>
