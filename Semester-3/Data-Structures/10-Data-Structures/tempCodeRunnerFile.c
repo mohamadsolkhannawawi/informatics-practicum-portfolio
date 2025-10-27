@@ -1,0 +1,1 @@
+printf("right(pohonKosong) = %c\n", GetRight(pohonKosong));
