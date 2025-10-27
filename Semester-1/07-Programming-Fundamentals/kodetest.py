@@ -1,7 +1,7 @@
 def Konso(e,L):
     if L == []:
         return [e]
-    else:
+    else: 
         return [e] + L
 
 def Konsi(L,e):
