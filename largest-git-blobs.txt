@@ -1,0 +1,30 @@
+79b6f8a2e5263796fecbb6bec27308c990617988 347080233 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre.zip
+268fa4cf4309af66fda6624889615b312c08b70d 296008013 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-x64.zip
+bc065f62b63b94bf151d0c1efe0c3f2a60a9afff 221163040 Semester-3/Database/01-Database/jdk-8u241-windows-x64.exe
+5cc346ca07e0a353b8fe818184fbb67a5ffe0b29 100240159 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-x64/datamodeler/jdk/jre/lib/modules
+731ee393bb83dba2c5cc57f723224687fd4db874 98619672 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/linux-x64/lib/libjfxwebkit.so
+c32f6b84fc45aede8359ce346731ad571f092b22 81222776 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/osx-x64/lib/libjfxwebkit.dylib
+65807efc5fd54bb5d21a8f26a3a00855a3d0462b 71770112 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/windows-x64/bin/jfxwebkit.dll
+9c7413abf7dae47520c9d0550c6f49e67447c957 56163593 Semester-2/Computer-Networks/tugasakhir.zip
+4af3c0ef2ab020361225202a80e870754ecef281 28696986 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/datamodeler/extensions/oracle.datamodeler.jar
+f6175372eda8b69520c3b669672361b1e677ad4e 26193148 Semester-2/Computer-Networks/wordpress-6.5.3.zip
+2c5236b60b66c43baadbfa533c4b282e0bacabbb 12687958 Semester-4/Visual-Computing-Graphics/06-Visual-Computing-Graphics/Tugas Besar GKV/DoraemonProject.zip
+0f18ad0e87865ee13b30168ba9f2ddefd4e5d8e8 12000054 Semester-4/Visual-Computing-Graphics/06-Visual-Computing-Graphics/Tugas Besar GKV/DoraemonProject/paving.bmp
+3d0ace76f90e76ba6e4b64fdc08cb46f61950a2e 11662480 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-x64/datamodeler/jdk/jre/bin/server/jvm.dll
+68a9e4701d70c70e0ef13b0f506de63b795747f5 8469826 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/sqldeveloper/lib/dbtools-common.jar
+6e388e94820a8cb21039ba63807685d80b86900b 8038205 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/sqldeveloper/extensions/oracle.sqldeveloper.jar
+febd929ac19fd4c09a3df1ae2b2531ac09f27930 7625324 Semester-3/Database/06-Database/BASDAT FULL PRAKTIKUM.pdf
+0564be65001777282e53fc7de6d417e1dadd0d1a 7020007 Semester-1/Programming-Fundamentals/01-Programming-Fundamentals/Python Crash Course, 2nd Edition (Eric Matthes) (z-lib.org).pdf
+6b64b63f2ec173fefbb528e84ee4fce636688668 5898597 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/sqldeveloper/lib/poi-ooxml-lite.jar
+8a22feba613d24cca6941f0f118910b2ed4bde35 5844517 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/ide/extensions/oracle.ide.jar
+d8ce2949b5df5cf2b8feca3840db22e30856a0fb 5471631 Semester-2/Computer-Networks/Responsi_24060123120020_Mohamad Solkhan Nawawi_Jarkom A1.docx
+099079d54ee4375d92a205d5aa915a4ff17d6eab 5395704 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/windows-x64/lib/src.zip
+e2d736c099ca97b80874cb819e598120d7bcbac3 5395702 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/osx-x64/lib/src.zip
+3067512b324f91ec6fc1c96ff20c6f57e4968872 5395702 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/linux-x64/lib/src.zip
+453520e4cd1adc90586cb48cac9ab495c70b230e 5181682 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/jdbc/lib/ojdbc11.jar
+b41682384a98365abad6847bf85a551109e12bf6 5044546 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-x64/datamodeler/jdk/jre/lib/ct.sym
+d239f24beb7260cd97e517c8a3859930e1c8d9c9 4439357 Semester-1/Programming-Fundamentals/07-Programming-Fundamentals/MOHAMAD SOLKHAN NAWAWI_24060123120020_TUGAS LIST DAN LIST OF LIST.pdf
+2f57b97ee17a9dc4abc69c30255488ac5a608a6e 4421048 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/osx-x64/lib/javafx.graphics.jar
+9c10125c9d94c381134308705c18682796685529 4370131 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/linux-x64/lib/javafx.graphics.jar
+5677bb459fe8fd851d89be25757d55bac36ac94d 4338984 Semester-2/Computer-Networks/Responsi_24060123120020_Mohamad Solkhan Nawawi_Jarkom A1.pdf
+f08b82d6a043b5edfc163c5c89a6213a4f9cae98 4314224 Semester-3/Database/01-Database/datamodeler-23.1.0.087.0806-no-jre/datamodeler/modules/javafx/windows-x64/lib/javafx.graphics.jar
